@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+    <script src="calculator.js" defer></script>
+  </head>
+  <body>
+    <div id="calculator">
+      <h2>Calculator</h2>
+      <div id="display">
+        <div id="content">0</div>
+      </div>
+      <div class="buttons">
+        <button onclick="chooseKey(7);">7</button>
+        <button onclick="chooseKey(8);">8</button>
+        <button onclick="chooseKey(9);">9</button>
+        <button onclick="chooseKey('/');">/</button>
+        <button onclick="chooseKey(4);">4</button>
+        <button onclick="chooseKey(5);">5</button>
+        <button onclick="chooseKey(6);">6</button>
+        <button onclick="chooseKey('*');">&times;</button>
+        <button onclick="chooseKey(1);">1</button>
+        <button onclick="chooseKey(2);">2</button>
+        <button onclick="chooseKey(3);">3</button>
+        <button onclick="chooseKey('-');">-</button>
+        <button onclick="chooseKey(0);">0</button>
+        <button onclick="chooseKey('.');">,</button>
+        <button id="clear" onclick="chooseKey('clear');">C</button>
+        <button onclick="chooseKey('+');">+</button>
+        <button id="equal" onclick="chooseKey('=');">=</button>
+        <button onclick="chooseKey('/100');">%</button>
+      </div>
+    </div>
+  </body>
+</html>
